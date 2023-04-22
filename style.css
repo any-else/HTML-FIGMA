@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.container .nav {
+  width: 45%;
+  background-color:  #00A3FF;
+  height: 100vh;
+  background-image: url("./image/S_confirmation.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  position: relative;
+  text-align: center;
+  padding-top: 235px;
+}
+
+.container .nav h4 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center; 
+
+  color: #FFFFFF;
+  margin-top: 27px;
+  margin-bottom: 33px;
+}
+.container .nav p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 0 30px;
+}
+
+.container .main {
+  background-color: #FFFFFF;
+  text-align: center;
+  width: 380px;
+  height: auto;
+}
+
+.container .main h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+ padding-bottom: 67px;
+
+}
+
+.container .main .main-title {
+  color: #A7A8BB;
+  margin: 8px 0 32px 0;
+}
+
+.container .main .main-title > b{
+  color: #00A3FF;
+}
+
+.form p:first-child {
+  color: #181C32;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: start;
+  
+}
+.form-first p,
+.form-last p
+{
+  height: 30px;
+}
+.form-first p {
+  margin-top: 38px;
+  text-align: start;
+}
+.form-first input,
+.form-last input{
+  height: 54px;
+  left: 0px;
+  top: 120px;
+
+  background: #F5F8FA;
+  border-radius: 6px;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+}
+.form-first input:focus,
+.form-last input:focus{
+  outline: none;
+}
+
+.form-last p {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.form-last p  b:last-child {
+  color: #00A3FF;
+}
+
+.btn-signin {
+  padding: 14px 24px;
+  background-color: #00A3FF;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-gg img {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+    left: 15px;
+    bottom: 10px;
+}
+.btn-gg {
+  position: relative;
+  padding: 14px 12px 15px 41px;
+  background-color: #F1FAFF;
+  color: #00A3FF;
+  border-radius: 6px;
+  border: none;
+
+}
